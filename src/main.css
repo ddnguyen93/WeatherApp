@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(171, 250, 233);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 20px;
+}
+
+form {
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: 250px;
+    height: 150px;
+    font-size: 20px;
+    
+}
+
+input {
+    height: 40px;
+}
+
+ul {
+    margin: 0px;
+    list-style-type: none;
+    padding-left: 7px;
+    background-color: white;
+    width: 240px;
+    border-radius: 5px;
+}
+
+li {
+    font-size: 14px;
+    width: 97%;
+}
+
+li:hover {
+    background-color: rgb(197, 197, 197);
+}
+
+#weatherDisplay {
+    background-color: rgb(204, 225, 250);
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, 0);
+    z-index: -1;
+}
+
+#locationDisplay {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    margin: 0px;
+    transform: translate(-50%, -50%)
+}
+
+#conditionDisplay {
+    position: absolute;
+    font-size: 25px;
+    top: 40%;
+    left: 25%;
+    margin: 0px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 275px;
+
+}
+
+#tempDisplay {
+    position: absolute;
+    font-size: 80px;
+    top: 42%;
+    left: 75%;
+    margin: 0px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 250px;
+}
+
+#windLabel {
+    position: absolute;
+    font-size: 20px;
+    top: 65%;
+    left: 55%;
+    margin: 0px;
+}
+
+#humidityLabel {
+    position: absolute;
+    font-size: 20px;
+    top: 250px;
+    left: 55%;
+    margin: 0px;
+}
+
+#windNum {
+    position: absolute;
+    font-size: 20px;
+    top: 65%;
+    left: 70%;
+    margin: 0px;
+}
+
+#humidityNum {
+    position: absolute;
+    font-size: 20px;
+    top: 250px;
+    left: 77%;
+    margin: 0px;
+}
+
+#conditionPicture {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#buttonArea {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btnPressed {
+    background-color: grey;
+    
+}
+
+.unitBtn {
+    height: 30px;
+    width: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border: rgb(255, 0, 0);
+    cursor: pointer;
+}

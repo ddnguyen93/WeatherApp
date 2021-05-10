@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Weather Forecast</title>
+    <script src="https://unpkg.com/lodash@4.17.20"></script>
+  </head>
+  <body>
+    <div id="content">
+      <div>
+        <h1>Weather Forecast</h1>
+      </div>
+      <div id="InputArea">
+        <form autocomplete="off" id="formContainer">
+          <input id="searchBar" type="text" placeholder="ex. Toronto, Canada">
+          <ul id="suggestedList"></ul>
+        </form>
+      </div>
+      <div id="weatherDisplay">
+        <h2 id="locationDisplay"></h2>
+        <h3 id="conditionDisplay"></h3>
+        <h2 id="tempDisplay"></h2>
+        <h4 id="windLabel">Wind:</h4>
+        <h4 id="windNum"></h4>
+        <h4 id="humidityLabel">Humidity:</h4>
+        <h4 id="humidityNum"></h4>
+        <img id="conditionPicture">
+      </div>
+      <div id='buttonArea'>
+        <button class='unitBtn btnPressed' id='btnMetric'>Metric</button>
+        <button class='unitBtn' id='btnImperial'>Imperial</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
